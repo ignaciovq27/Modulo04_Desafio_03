@@ -38,7 +38,7 @@ function App() {
     agregarUsuario()
   };
 
-  //Funcion para agregar un nuevo colaborador usando los estados del nombre y el correo de los inputs:
+  //Funcion para agregar un nuevo colaborador usando los estados del nombre y el correo de los inputs
   const agregarUsuario = () => {
     const nuevoColaborador = {
       id: 1,
