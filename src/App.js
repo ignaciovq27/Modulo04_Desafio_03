@@ -70,7 +70,7 @@ function App() {
         <Form.Group className="mb-2">
           <Form.Label className='label-stlye'>Nombre</Form.Label>
           <Form.Control
-            type="nombre"
+            type="text"
             placeholder="Escribe un nombre"
             value={nombreColaborador}
             onChange={(e) => setNombreColaborador(e.target.value)}
@@ -80,7 +80,7 @@ function App() {
         <Form.Group className="mb-2">
           <Form.Label className='label-stlye'>Correo</Form.Label>
           <Form.Control
-            type="correo"
+            type="text"
             placeholder="Escribe un correo"
             value={correoColaborador}
             onChange={(e) => setCorreoColaborador(e.target.value)}
