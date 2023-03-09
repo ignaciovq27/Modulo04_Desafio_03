@@ -1,0 +1,24 @@
+.App {
+  margin: 0;
+  padding: 0;
+  ;
+}
+
+.Container {
+  margin-left: 7em;
+  margin-right: 7em;
+}
+
+.list-style {
+  text-align: center;
+}
+
+.error {
+  /* padding: 5px; */
+  color: red;
+  font-weight: bold;
+}
+
+.label-stlye {
+  font-weight: 500;
+}
