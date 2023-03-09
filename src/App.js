@@ -80,7 +80,7 @@ function App() {
         <Form.Group className="mb-2">
           <Form.Label className='label-stlye'>Correo</Form.Label>
           <Form.Control
-            type="text"
+            type="email"
             placeholder="Escribe un correo"
             value={correoColaborador}
             onChange={(e) => setCorreoColaborador(e.target.value)}
