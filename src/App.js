@@ -59,7 +59,7 @@ function App() {
         )
     })
     setColaboradoresFiltrados([...colaboradoresFiltrados])
-    console.log(search)
+    // console.log(search)
   }
 
   return (
