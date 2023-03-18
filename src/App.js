@@ -55,10 +55,11 @@ function App() {
   const filtrarColaboradores = (search) => {
     const colaboradoresFiltrados = colaboradores.filter((colaborador) => {
       return (
-        colaborador.nombre.includes(search) || colaborador.correo.includes(search)
-      )
+        colaborador.nombre.includes(search.toLowerCase()) || colaborador.correo.includes(search.toLowerCase())
+        )
     })
     setColaboradoresFiltrados([...colaboradoresFiltrados])
+    console.log(search)
   }
 
   return (
